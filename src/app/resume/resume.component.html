@@ -42,44 +42,108 @@
 	</section>
 	<section class="projectList" id="list">
 		<div class="list">
-			<a href="https://angularblogproject-b3c61.web.app/blog">
+			
+
+			<!-- <a href="https://angularblogproject-b3c61.web.app/blog" target="_blank"> -->
     			<img class="projectImg"src="/assets/3.jpg" alt="- designed with Angular and Firebase" padding="3vh">
-  			</a>
-  			<div class="container">Blog</div>
+  			<!-- </a> -->
+  			<div class="buttons">
+  				<a class="button" href="https://angularblogproject-b3c61.web.app/blog" target="_blank" role="button">Visit URL</a>
+  				
+  				<button (click)="open(blog)">Play Demo</button>
+  			</div>
+  			<!-- Modal -->
+			<ng-template #blog let-modal>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/vwJ2cAKG66w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			
+				
+			  <!-- <div class="modal-body">
+			  </div>
+			  <div class="modal-footer">
+			    <button type="button" class="btn btn-outline-dark" (click)="modal.close('Save click')">Ok</button>
+			  </div> -->
+			</ng-template>
+
+  			<div class="container">Blog - designed with Angular2 and Firebase as backend. Major functions including articles listing on homepage, blog editing and creating new articles. </div>
 		</div>
 		<div class="list">
-			<a href="https://happytrade-1582e.web.app/home">
+			<!-- <a href="https://happytrade-1582e.web.app/home" target="_blank"> -->
     			<img class="projectImg"src="/assets/4.jpg"  alt=" - a website designed to display my stock trading opinions, a trading simulation game, and a community chatting function. Designed with Angular and Firebase">
-  			</a>
-  			<div class="container">HappyTrade</div>
+  			<!-- </a> -->
+  			<div class="buttons">
+  				<a class="button" href="https://happytrade-1582e.web.app/home" target="_blank" role="button">Visit URL</a>
+  				<button (click)="open(trade)">Play Demo</button>
+  			</div>
+  			<!-- Modal -->
+			<ng-template #trade let-modal>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/3EEt9-UMJrA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</ng-template>
+
+  			<div class="container">HappyTrade - a trading information website designed with Angular2 and Firebase as backend. Website includes home page, blog, trade simulator and chat room.</div>
 		</div>
 		<div class="list">
-			<a href="https://oshop-48171.web.app/">
+			<!-- <a href="https://oshop-48171.web.app/" target="_blank"> -->
     			<img class="projectImg"src="/assets/5.jpg" alt="including authorization, check-out component and other ecommerce functions- Mosh Angular Course Project. Designed with Angular and Firebase." padding="3vh">
-  			</a>
-  			<div class="container">Online Shopping</div>
+  			<!-- </a> -->
+  			<div class="buttons">
+  				<a class="button" href="https://oshop-48171.web.app/" target="_blank" role="button">Visit URL</a>
+  				<button (click)="open(oshop)">Play Demo</button>
+  			</div>
+  			<!-- Modal -->
+			<ng-template #oshop let-modal>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/wDwGvWK9r3Y" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</ng-template>
+  			<div class="container">Online Shopping - designed with Angular2 and Firebase as backend, including product display homepage, shopping cart and check out functions</div>
 		</div>
 		<div class="list">
-			<a href="https://tictactoe-1c127.web.app">
+			<!-- <a href="https://tictactoepvp-e15d9.web.app/" target="_blank"> -->
     			<img class="projectImg"src="/assets/6.jpg"   alt=" - designed with Angular and hosted by Firebase." padding="3vh">
-  			</a>
-  			<div class="container">Tic-tac-toe</div>
+  			<!-- </a> -->
+  			<div class="buttons">
+  				<a class="button" href="https://tictactoepvp-e15d9.web.app/" target="_blank" role="button">Visit URL</a>
+  				<button (click)="open(Tictactoe)">Play Demo</button>
+  			</div>
+  			<!-- Modal -->
+			<ng-template #Tictactoe let-modal>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/duS50cb2cOI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</ng-template>
+  			<div class="container">Tic-tac-toe - designed with Angular2 and Firebase hosting to support online player vs player.</div>
   		</div>
-		<div class="list">
+  		<div class="list">
+			<!-- <a href="https://big2-30551.web.app" target="_blank"> -->
+    			<img class="projectImg"src="/assets/8.jpg"   alt=" - designed with Angular and hosted by Firebase." padding="3vh">
+  			<!-- </a> -->
+  			<div class="buttons">
+  				<a class="button" href="https://big2-30551.web.app" target="_blank" role="button">Visit URL</a>
+  				<button (click)="open(big2)">Play Demo</button>
+  			</div>
+  			<!-- Modal -->
+			<ng-template #big2 let-modal>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/73lueIWHo7Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</ng-template>
+  			<div class="container">Poker Game Big 2 - designed with Angular2 and Firebase. Currently under development in many areas. *NOT FINAL* <br></div>
+  		</div>
+		<!-- <div class="list">
 			<a href="https://angularblogproject-b3c61.web.app/blog">
     			<img class="projectImg"src="/assets/3.jpg" alt="Poker Game" >
   			</a>
   			<div class="container">Poker Game</div>
-		</div>
+		</div> -->
 		<!-- <div class="list"> -->
 		<div class="btns-cont">
 			<!-- <div class="demo-circle"> -->
-				<a class="btn-demo" href="https://angularblogproject-b3c61.web.app/blog">View Demo
-	  			</a>
-	  			<br>
-	  			<a class="btn-demo" href="https://angularblogproject-b3c61.web.app/blog">View Contact
-	  			</a>
-  			<!-- </div> -->
+				<div class="temp">
+					<h4>This portfolio will still be updated. Below is link to my github for your reference. </h4>
+				<a href="https://github.com/shangyi111" target="_blank">
+					<i style="font-size:5vh"class="fab fa-github" ></i>
+				</a>
+
+				<h4>I am currently looking for career opportunity in software engineer.
+				</h4>
+				<h4>Thank you for visiting.	</h4>
+				
+				</div>
+				
 		</div>
 		
 	<!-- 	</div> -->
