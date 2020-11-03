@@ -21,16 +21,6 @@
 			<p></p>
 			<p>Passionate software engineer with expertise of Computer Science fundamentals in object-oriented design, data structures, algorithm design, problem solving, and complexity analysis. Analytical and detail-oriented with entrepreneur spirit. Fast learner in a dynamic environment, with the ability to learn and adapt new technologies and languages in a condensed time frame.
 			</p>
-        	
-
-        	<!-- <ul>
-          		<li>Design and implement frontend interfaces and backend services to assemble web applications based on user stories. </li>
-          		<br>
-          		<li>Research open source to write codes adhering to standards and best practices.</li>
-          		<br>
-          		<li>Attended FreeCodeCamp</li>
-        	</ul> -->
- 
 			<p >
 				<p>
 					SKILLS - Angular, Typescript, Node.js, Javascript, Ruby, Angular Material, Bootstrap, HTML, CSS, MongoDB, Firebase, MySQL, Github, E-Commerce, UI/UX Design, Heroku
@@ -43,6 +33,20 @@
 		</div>
 	</section>
 	<section class="projectList" id="list">
+		<div class="list">
+			<!-- <a href="https://big2-30551.web.app" target="_blank"> -->
+    			<img class="projectImg"src="/assets/8.jpg"   alt=" - designed with Angular and hosted by Firebase." padding="3vh">
+  			<!-- </a> -->
+  			<div class="buttons">
+  				<a class="button" href="https://big2-30551.web.app" target="_blank" role="button">Visit URL</a>
+  				<button (click)="open(big2)">Play Demo</button>
+  			</div>
+  			<!-- Modal -->
+			<ng-template #big2 let-modal>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/73lueIWHo7Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</ng-template>
+  			<div class="container">Poker Game Big 2 - designed with Angular2 and Firebase. Currently under development in many areas. *NOT FINAL* <br></div>
+  		</div>
 		<div class="list">
 			
 
@@ -111,20 +115,7 @@
 			</ng-template>
   			<div class="container">Tic-tac-toe - designed with Angular2 and Firebase hosting to support online player vs player.</div>
   		</div>
-  		<div class="list">
-			<!-- <a href="https://big2-30551.web.app" target="_blank"> -->
-    			<img class="projectImg"src="/assets/8.jpg"   alt=" - designed with Angular and hosted by Firebase." padding="3vh">
-  			<!-- </a> -->
-  			<div class="buttons">
-  				<a class="button" href="https://big2-30551.web.app" target="_blank" role="button">Visit URL</a>
-  				<button (click)="open(big2)">Play Demo</button>
-  			</div>
-  			<!-- Modal -->
-			<ng-template #big2 let-modal>
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/73lueIWHo7Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-			</ng-template>
-  			<div class="container">Poker Game Big 2 - designed with Angular2 and Firebase. Currently under development in many areas. *NOT FINAL* <br></div>
-  		</div>
+  		
 		<!-- <div class="list">
 			<a href="https://angularblogproject-b3c61.web.app/blog">
     			<img class="projectImg"src="/assets/3.jpg" alt="Poker Game" >
